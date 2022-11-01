@@ -11,7 +11,7 @@ sudo ./bin/kind create cluster
 ```
 4. Check KIND is working:
 ```
-kubectl get all --all-namespaces
+sudo kubectl get all --all-namespaces
 ```
 5. Setup Wordpress in Kubernetes (some troubleshooting required):
 ```
