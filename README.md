@@ -20,6 +20,7 @@ https://kubernetes.io/docs/tutorials/stateful-application/mysql-wordpress-persis
 
 # Committing all files changed
 ```
+cd ~
 cd git
 cd [name of repo - press tab to list]
 git add .
