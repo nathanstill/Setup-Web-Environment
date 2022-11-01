@@ -18,6 +18,14 @@ sudo kubectl get all --all-namespaces
 https://kubernetes.io/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume/
 ```
 
+# Committing all files changed
+```
+cd git
+cd [name of repo - press tab to list]
+git add .
+git commit -m "My commit details here"
+git push
+
 # Cloning a repository
 ```
 git clone [repo URL here]
