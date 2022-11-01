@@ -13,3 +13,7 @@ sudo /home/ubuntu/go/bin/kind create cluster
 ```
 kubectl get all --all-namespaces
 ```
+5. Setup Wordpress in Kubernetes (some troubleshooting required):
+```
+https://kubernetes.io/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume/
+```
