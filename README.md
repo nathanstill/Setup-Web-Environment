@@ -24,6 +24,7 @@ git clone [repo URL here]
 ```
 # Creating a git folder
 ```
+cd ~
 mkdir git
 cd git
 ```
