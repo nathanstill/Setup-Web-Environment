@@ -17,3 +17,13 @@ sudo kubectl get all --all-namespaces
 ```
 https://kubernetes.io/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume/
 ```
+
+# Cloning a repository
+```
+git clone [repo URL here]
+```
+# Creating a git folder
+```
+mkdir git
+cd git
+```
