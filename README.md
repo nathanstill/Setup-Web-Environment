@@ -7,7 +7,7 @@ git clone https://github.com/kubernetes-sigs/kind.git
 sudo apt install make
 cd kind
 make install
-sudo /home/ubuntu/go/bin/kind create cluster
+sudo ./bin/kind create cluster
 ```
 4. Check KIND is working:
 ```
