@@ -25,7 +25,7 @@ cd [name of repo - press tab to list]
 git add .
 git commit -m "My commit details here"
 git push
-
+```
 # Cloning a repository
 ```
 git clone [repo URL here]
