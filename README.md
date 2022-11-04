@@ -2,10 +2,16 @@
 1. Install Docker Desktop
 2. Install Go
 3. Install minikube (note - stop KIND first in Docker)
+For Apple M1 (new lab computers)
 ```
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-darwin-arm64
 sudo install minikube-darwin-arm64 /usr/local/bin/minikube
 minikube start
+```
+For Intel only (older lab computers and some of your laptops):
+```
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-darwin-amd64
+sudo install minikube-darwin-amd64 /usr/local/bin/minikube
 ```
 4. Check kubectl is working:
 ```
