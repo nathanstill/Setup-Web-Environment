@@ -1,15 +1,13 @@
 # Setup-Web-Environment
 1. Install Docker Desktop
 2. Install Go
-3. Install KIND
+3. Install minikube (note - stop KIND first in Docker)
 ```
-git clone https://github.com/kubernetes-sigs/kind.git
-sudo apt install make
-cd kind
-make install
-sudo ./bin/kind create cluster
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-darwin-arm64
+sudo install minikube-darwin-arm64 /usr/local/bin/minikube
+minikube start
 ```
-4. Check KIND is working:
+4. Check kubectl is working:
 ```
 sudo kubectl get all --all-namespaces
 ```
