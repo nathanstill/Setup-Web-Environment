@@ -2,6 +2,7 @@
 1. Install Docker Desktop
 2. Install Go
 3. Install minikube (note - stop KIND first in Docker)
+
 For Apple M1 (new lab computers)
 ```
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-darwin-arm64
