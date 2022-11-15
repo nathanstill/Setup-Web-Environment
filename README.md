@@ -5,7 +5,7 @@ brew install apache2 mysql php
 ```
 2. Create the httpd.conf configuration changes
 ```
-cd /opt/homebrew/etc/httpd/httpd.conf
+nano /opt/homebrew/etc/httpd/httpd.conf
 ```
 
 ```
