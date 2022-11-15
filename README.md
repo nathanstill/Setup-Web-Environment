@@ -1,4 +1,33 @@
 # Setup-Web-Environment
+1. Install apache, mysql and PHP
+```
+brew install apache2 mysql php
+```
+2. Create the httpd.conf configuration changes
+```
+cd /opt/homebrew/etc/httpd/httpd.conf
+```
+
+```
+LoadModule php_module /opt/homebrew/opt/php/lib/httpd/modules/libphp.so
+
+    <FilesMatch \.php$>
+        SetHandler application/x-httpd-php
+    </FilesMatch>
+```
+3. Restart apache
+4. Download Wordpress and put in www folder
+5. Delete the index.html file
+6. Create the wordpress database
+```
+mysql -u root
+```
+
+```
+CREATE DATABASE wpdb DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+```
+
+#Old Instructions
 1. Install Docker Desktop
 2. Install Go
 3. Install minikube (note - stop KIND first in Docker)
