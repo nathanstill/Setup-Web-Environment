@@ -12,7 +12,7 @@ Install 'code' command in PATH
 git init
 git add .
 git commit -m "Initial Commit"
-git add remote "[link to your wordpress repo created above]"
+git remote add origin "[link to your wordpress repo created above]"
 git push
 ```
 Note: if there are suggested commands after the first git push command, run these.
