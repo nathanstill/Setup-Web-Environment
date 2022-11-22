@@ -1,3 +1,22 @@
+# Getting Visual Studio Code Setup
+
+1. Press command+shift+p in Visual studio code.
+2. Type 'shell install' and choose:
+```
+Install 'code' command in PATH
+```
+3. From the terminal, navigate to your www folder using the 'cd' (change directory) command and your Caveots page.
+4. Join the assignment: https://classroom.github.com/a/3E9N1PfG
+5. Create a new repository in this www folder.
+```
+git init
+git add .
+git commit -m "Initial Commit"
+git add remote "[link to your wordpress repo created above]"
+git push
+```
+Note: if there are suggested commands after the first git push command, run these.
+
 # Setup-Web-Environment
 1. Install apache, mysql and PHP
 ```
