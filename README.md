@@ -1,3 +1,6 @@
+# Adding a Custom Plugin
+https://makitweb.com/how-to-create-simple-wordpress-plugin/
+
 # Getting Visual Studio Code Setup
 
 1. Press command+shift+p in Visual studio code.
